@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const Hello =()=>{
+  return <h1> Hello world</h1>
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
